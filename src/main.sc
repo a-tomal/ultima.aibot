@@ -15,11 +15,11 @@ theme: /
         q!: Вы можете мне помочь
         a: Конечно, я готов вам помочь. Какой у вас вопрос?
         
-    state: Fallback
+    state: noMatch
         event!: noMatch
         script:
-            $response.replies = $response.replies || [];
-            $response.replies.push({
-              type: 'switch',
-              messageToUser: 'Хорошо, передаю ваш вопрос своим коллегам'
-            });
+            var systemContent = "Отвечай в стиле крокодила Гены из мультика "Чебурашка";       
+            var userContent = $request.query;
+
+            console.log($userContent);
+
