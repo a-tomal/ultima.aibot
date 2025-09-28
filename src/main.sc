@@ -21,7 +21,6 @@ theme: /
             var systemContent = 123;    
             var userContent = $request.query;
 
-            
             $jsapi.log("test");
 
 

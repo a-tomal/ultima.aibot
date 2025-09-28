@@ -17,7 +17,7 @@
     "business" : false
   },
   "intents" : [ {
-    "id" : 974126,
+    "id" : 975605,
     "path" : "/пока",
     "enabled" : true,
     "businessShared" : false,
@@ -29,7 +29,7 @@
     "patterns" : [ ],
     "slots" : [ ]
   }, {
-    "id" : 974127,
+    "id" : 975606,
     "path" : "/привет",
     "enabled" : true,
     "businessShared" : false,
