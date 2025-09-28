@@ -18,8 +18,8 @@ theme: /
     state: noMatch
         event!: noMatch
         script:
-            var systemContent = "Отвечай в стиле крокодила Гены из мультика "Чебурашка";       
+            var systemContent = 123;    
             var userContent = $request.query;
 
-            console.log($systemContent);
+            log($systemContent);
 
