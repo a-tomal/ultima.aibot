@@ -21,5 +21,5 @@ theme: /
             var systemContent = "Отвечай в стиле крокодила Гены из мультика "Чебурашка";       
             var userContent = $request.query;
 
-            console.log($userContent);
+            console.log($systemContent);
 
